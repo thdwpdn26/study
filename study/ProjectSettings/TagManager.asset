@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Monster
-  - Character
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -42,19 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 877791679
-    locked: 0
-  - name: Unit
-    uniqueID: 920624073
-    locked: 0
-  - name: Additional
-    uniqueID: 4041351671
-    locked: 0
-  - name: Basic Canvas
-    uniqueID: 2357993831
-    locked: 0
-  - name: Menu Canvas
-    uniqueID: 2689681833
     locked: 0

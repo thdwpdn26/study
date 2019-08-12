@@ -8,7 +8,9 @@ public class StartManager : MonoBehaviour {
 
     public void gameStart()
     {
+        /*
         ShowRewardedAd();
+        */
         SceneManager.LoadScene("GameScene");
         Time.timeScale = 1;
     }
@@ -20,9 +22,11 @@ public class StartManager : MonoBehaviour {
     
 	void Start () {
         Screen.SetResolution(1920, 1200, true);
+        /*
         Advertisement.Initialize("2878145", false);
+        */
 	}
-
+    /*
     private void ShowRewardedAd()
     {
         if(Advertisement.IsReady("rewardedVideo"))
@@ -46,7 +50,7 @@ public class StartManager : MonoBehaviour {
                 break;
         }
     }
-
+    */
 	void Update () {
 		
 	}
